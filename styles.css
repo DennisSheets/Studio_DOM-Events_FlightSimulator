@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: 'nasalizationregular';
+    src: url('fonts/nasalization-rg-webfont.woff') format('woff2'),
+         url('fonts/nasalization-rg-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+html {
+    font-family: 'nasalizationregular';
+}
+
+    h1 {
+        font-size: 32pt;
+     }
+
+    h2 {
+        font-size: 20pt;
+    }
+
+    h3 {
+        font-size: 16pt;
+    }
+
+    p {
+        font-size: 10pt;
+    }
+
+    div {
+        text-align: center;
+        margin: auto;
+    }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+                .flightStatusBox {
+                grid-column: 2;
+                grid-row: 1;
+                }
+
+                .fuelLevelBox {
+                padding-top: 6em;
+                grid-column: 1;
+                grid-row: 2;
+                }
+                        .fuelLevelIndicator {
+                            padding-top: 0em;
+                        }
+
+                        .astronautChat {
+                            padding-top: 4em;
+                        }
+
+                .shuttleTrajectoryBox {
+                grid-column: 2;
+                grid-row: 2;
+                }
+
+                        #rocket {
+                            height: 75px;
+                            width: 75px;
+                        }
+                        
+                        #shuttleBackground {
+                            background-position: unset;
+                            background-color: green;
+                            height: 400px;
+                            width: 400px;
+                        }
+
+                        .shuttleBackgroundSpace {
+                            background-position: center;
+                            height: 400px;
+                            width: 400px;
+                            background-repeat: no-repeat;
+                            background-image: url(images/space.jpg);
+                            background-size: cover;
+                        }
+
+                        .shuttleBackgroundLaunch {
+                            background-position: center;
+                            height: 400px;
+                            width: 400px;
+                            background-repeat: no-repeat;
+                            background-image: url(images/launchpad.jpg);
+                            background-size: cover;
+                        }
+
+
+
+
+
+
+                .shuttleHeightBox {
+                padding-top: 6em;
+                grid-column: 3;
+                grid-row: 2;
+                }
+
+                        .directionsBox {
+                            padding-top: 50px;
+                        }
+
+                .shuttleControlBox {
+                padding-top: 2em;
+                grid-column: 2;
+                grid-row: 3;
+                }
